@@ -1,6 +1,26 @@
-# Agent Machinery
+<p align="center">
+  <a href="https://aginery.com"><img src="assets/logo.png" width="96" height="96" alt="Agent Machinery logo"></a>
+</p>
 
-Connect your AI harness to [Agent Machinery](https://aginery.com), an MCP gateway for teams deploying AI tools at scale to employee-facing and headless agents. This plugin connects to `https://aginery.com/mcp`; it does not install or run a local server.
+<h1 align="center">Agent Machinery</h1>
+
+<p align="center"><strong>Roll out AI tools across your team from one MCP gateway.</strong></p>
+
+<p align="center">Give employees and headless agents the tools they need, with access controls you manage centrally.</p>
+
+<p align="center">
+  <a href="https://aginery.com">Explore Agent Machinery</a> · <a href="#install">Install the plugin</a>
+</p>
+
+## Why Agent Machinery?
+
+| What you get | How it helps |
+| --- | --- |
+| **One connection for your tools** | Connect Cursor, Claude Code, or Codex to `https://aginery.com/mcp` instead of configuring each upstream MCP server in every harness. |
+| **Access your team controls** | Decide which tools each person or workload can use. Agent Machinery handles upstream sign-in and keeps those credentials out of the plugin. |
+| **Human and headless access** | Employees sign in with their own accounts. Automated jobs use dedicated workload identities instead of shared human logins. |
+
+This plugin connects your harness to the hosted gateway. It doesn’t install a local server or bundle credentials.
 
 ## Install
 
@@ -28,8 +48,8 @@ codex plugin add agent-machinery@aginery
 
 Start a new Codex session after installing and follow its MCP sign-in prompt.
 
-## Access
+## After you install
 
-Sign in with the account your team uses for Agent Machinery and approve the access you want to grant. Your organization’s setup and your grants determine which tools are available. The plugin does not bundle credentials. Headless workloads should use their own workload identity and the gateway’s client-credentials flow rather than a shared human login.
+Sign in with the account your team uses for Agent Machinery and approve the requested access. Your organization’s setup and your grants determine which tools you’ll see. Headless workloads authenticate separately using the gateway’s client-credentials flow.
 
-If you already configured this endpoint directly, remove the old entry when switching to the plugin to avoid loading the server twice.
+> **Already connected?** Remove your old manual entry when switching to the plugin so the gateway doesn’t load twice.

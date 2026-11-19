@@ -3,8 +3,10 @@
     "name": "Aginery",
     "url": "https://aginery.com"
   },
-  "description": "An MCP gateway for teams deploying AI tools at scale to employee-facing and headless agents.",
+  "description": "Roll out AI tools across your team from one MCP gateway. Give employees and headless agents the tools they need, with access controls you manage centrally.",
   "homepage": "https://aginery.com",
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://github.com/aginery/plugin#install",
   "license": "MIT",
   "name": "agent-machinery",
   "repository": "https://github.com/aginery/plugin",

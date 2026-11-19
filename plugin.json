@@ -4,7 +4,7 @@
     "name": "Aginery",
     "url": "https://aginery.com"
   },
-  "description": "An MCP gateway for teams deploying AI tools at scale to employee-facing and headless agents.",
+  "description": "Roll out AI tools across your team from one MCP gateway. Give employees and headless agents the tools they need, with access controls you manage centrally.",
   "extensions": {
     "com.openai": {
       "interface": {
@@ -12,7 +12,8 @@
         "developerName": "Aginery",
         "displayName": "Agent Machinery",
         "logo": "./assets/logo.png",
-        "shortDescription": "MCP gateway for teams and headless agents",
+        "shortDescription": "One MCP gateway for your people and agents",
+        "longDescription": "Connect your team's AI tools once. Agent Machinery gives employees and headless agents access to the tools they need through one MCP gateway, with centrally managed permissions and upstream sign-in.",
         "websiteURL": "https://aginery.com"
       }
     }

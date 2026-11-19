@@ -1,0 +1,12 @@
+{
+  "name": "agent-machinery",
+  "version": "0.1.0",
+  "description": "Roll out AI tools across your team from one MCP gateway. Give employees and headless agents the tools they need, with access controls you manage centrally.",
+  "author": {
+    "name": "Aginery"
+  },
+  "homepage": "https://aginery.com",
+  "repository": "https://github.com/aginery/plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png"
+}
