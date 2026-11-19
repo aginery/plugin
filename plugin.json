@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Aginery",
+    "url": "https://aginery.com"
+  },
+  "description": "An MCP gateway for teams deploying AI tools at scale to employee-facing and headless agents.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "category": "Productivity",
+        "developerName": "Aginery",
+        "displayName": "Agent Machinery",
+        "logo": "./assets/logo.png",
+        "shortDescription": "MCP gateway for teams and headless agents",
+        "websiteURL": "https://aginery.com"
+      }
+    }
+  },
+  "homepage": "https://aginery.com",
+  "license": "MIT",
+  "name": "agent-machinery",
+  "repository": "https://github.com/aginery/plugin",
+  "version": "0.1.0"
+}

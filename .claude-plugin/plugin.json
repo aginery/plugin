@@ -1,0 +1,12 @@
+{
+  "author": {
+    "name": "Aginery",
+    "url": "https://aginery.com"
+  },
+  "description": "An MCP gateway for teams deploying AI tools at scale to employee-facing and headless agents.",
+  "homepage": "https://aginery.com",
+  "license": "MIT",
+  "name": "agent-machinery",
+  "repository": "https://github.com/aginery/plugin",
+  "version": "0.1.0"
+}

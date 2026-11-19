@@ -1,0 +1,13 @@
+{
+  "name": "aginery",
+  "description": "Agent Machinery plugins from Aginery.",
+  "owner": {
+    "name": "Aginery"
+  },
+  "plugins": [
+    {
+      "name": "agent-machinery",
+      "source": "./"
+    }
+  ]
+}

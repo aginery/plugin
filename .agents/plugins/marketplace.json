@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "displayName": "Aginery"
+  },
+  "name": "aginery",
+  "plugins": [
+    {
+      "category": "Productivity",
+      "name": "agent-machinery",
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./",
+        "source": "local"
+      }
+    }
+  ]
+}
